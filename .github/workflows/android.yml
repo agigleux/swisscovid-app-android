@@ -2,9 +2,13 @@ name: Android Check Build
 
 on:
   push:
-    branches: [ master, develop, feature/v2 ]
+    branches:
+      - master
+      - develop
+      - branch-*
   pull_request:
-    branches: [ master, develop, feature/v2 ]
+    types: [opened, synchronize, reopened]
+
 
 jobs:
   build:
