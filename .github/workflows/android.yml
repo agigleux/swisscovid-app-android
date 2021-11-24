@@ -57,4 +57,5 @@ jobs:
     - name: Sonar Analysis
       run: ./gradlew sonarqube -Dsonar.login=${{secrets.SONAR_LOGIN}}
       env:
+        SONARCLOUD_URL: "https://squad-1-core.sc-dev.io"
         GITHUB_TOKEN: ${{ github.token }}
