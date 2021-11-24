@@ -17,6 +17,8 @@ import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.Headers
 import retrofit2.http.POST
+import ch.admin.bag.dp3t.networking.models.AuthenticationCodeResponseModel
+import ch.admin.bag.dp3t.networking.models.AuthenticationCodeResponseModelV2
 
 interface AuthCodeService {
 	@Headers("accept: */*", "content-type: application/json")
