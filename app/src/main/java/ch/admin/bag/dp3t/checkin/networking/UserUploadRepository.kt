@@ -18,6 +18,7 @@ class UserUploadRepository {
 
 	private var userUploadService: UserUploadService
 	private val random = Random()
+	private val random2 = Random()
 
 	init {
 		val okHttpBuilder = OkHttpClient.Builder()
