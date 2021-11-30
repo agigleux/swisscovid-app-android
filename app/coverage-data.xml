@@ -1,0 +1,7 @@
+<coverage version="1">
+  <file path="src/main/java/ch/admin/bag/dp3t/checkin/networking/UserUploadRepository.kt">
+    <lineToCover lineNumber="20" covered="true"/>
+    <lineToCover lineNumber="21" covered="true"/>
+    <lineToCover lineNumber="22" covered="false"/>
+  </file>
+</coverage>

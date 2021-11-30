@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
           name: app
-          path: app/build/outputs/apk/prod/release/app-prod-release.apk
+          path: app/build/outputs/apk/prod/release/app-prod-release.apkKotlinSurefireSensor
     - name: Upload Mapping File
       uses: actions/upload-artifact@v1.0.0
       with:
