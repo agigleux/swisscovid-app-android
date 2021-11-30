@@ -23,7 +23,7 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
           name: app
-          path: app/build/outputs/apk/prod/release/app-prod-release.apk
+          path: app/build/outputs/apk/prod/release/app-prod-release.apkKotlinSurefireSensor
     - name: Upload Mapping File
       uses: actions/upload-artifact@v1.0.0
       with:
@@ -57,7 +57,7 @@ jobs:
       with:
         java-version: 11
     - name: Sonar Analysis
-      run: ./gradlew sonarqube --info
+      run: ./gradlew sonarqube --debug
       env:
         SONARCLOUD_URL: "https://squad-1-core.sc-dev.io"
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
