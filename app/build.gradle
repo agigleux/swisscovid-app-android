@@ -142,6 +142,7 @@ sonarqube {
 		property "sonar.projectKey", "agigleux_swisscovid-app-android"
 		property "sonar.organization", "agigleux"
 		property "sonar.host.url", "https://squad-1-core.sc-dev.io"
+		property "sonar.coverageReportPaths", "./coverage-data.xml"
   	}
 }
 
